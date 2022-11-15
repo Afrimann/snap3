@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intro-section</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="query.css">
+    <link rel="icon" href="./images/favicon-32x32.png">
+</head>
+<body>
+    <header class="header">
+             <nav class="navbar">
+              <div class="logo"><h1>snap</h1></div>
+              
+                <div class="nav-links">
+                  <nav>
+                    <ul>
+                      <li><a href="#Home">Home</a></li>
+                      <li><a href="#About">About</a></li>
+                      <li><a href="#Services">Services</a></li>
+                      <li><a href="#Reviews">Reviews</a></li>
+                      <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                  </nav>
+                  <!-- <ul>
+                    <li><select id="Features">
+                        <option value="Features">Features</option>
+                        <option value="Todo">Todo List</option>
+                        <option value="Calendar">Calendar</option>
+                        <option value="Reminders">Reminders</option>
+                        <option value="Planning">Planning</option>
+                      </select></li>
+  
+                      <li><select id="Company">
+                          <option value="Company">Company</option>
+                          <option value="Todo">Todo List</option>
+                          <option value="Calendar">Calendar</option>
+                          <option value="Reminders">Reminders</option>
+                          <option value="Planning">Planning</option>
+                        </select></li>
+  
+                        <li><select id="Careers">
+                          <option value="Features">Careers</option>
+                          <option value="Todo">Todo List</option>
+                          <option value="Calendar">Calendar</option>
+                          <option value="Reminders">Reminders</option>
+                          <option value="Planning">Planning</option>
+                        </select></li>
+  
+                        <li><select id="About">
+                          <option value="About">About</option>
+                          <option value="Todo">Todo List</option>
+                          <option value="Calendar">Calendar</option>
+                          <option value="Reminders">Reminders</option>
+                          <option value="Planning">Planning</option>
+                        </select></li>
+                        </ul> -->
+                </div>
+                      <div class="login-register-right border">
+                        <ul>
+                          <li><a href="#" class="login">Login</a></li>
+                      <li><a href="#" class="register border-1px transparent">Register</a></li>
+                        </ul>
+                      </div>
+                      <div class="hamburger"  onclick="document.getElementById('side-nav').style.display='block'">
+                        <img src="./images/icon-menu.svg" alt="">
+                      </div>
+
+        </nav>
+    </header>
+
+                      <!-- SIDE NAVIGATION -->
+
+                      <div class="side-nav" id="side-nav">
+                        <div class="hamburger close" id="close" onclick="document.getElementById('side-nav').style.display='none'">
+                          <img src="./images/icon-close-menu.svg" alt="">
+                        </div>
+                        <nav>
+                          <ul>
+                            <li><a href="#Home" onclick="document.getElementById('side-nav').style.display='none'">Home</a></li>
+                            <li><a href="#About" onclick="document.getElementById('side-nav').style.display='none'">About</a></li>
+                            <li><a href="#Services" onclick="document.getElementById('side-nav').style.display='none'">Services</a></li>
+                            <li><a href="#Attributes" onclick="document.getElementById('side-nav').style.display='none'">Attributes</a></li>
+                            <li><a href="#Reviews" onclick="document.getElementById('side-nav').style.display='none'">Reviews</a></li>
+                            <li><a href="#Register" onclick="document.getElementById('side-nav').style.display='none'">Register</a></li>
+                            <li><a href="#Login" onclick="document.getElementById('side-nav').style.display='none'">Login</a></li>
+                          </ul>
+                        </nav>
+                      </div>
+          
+    <main>
+      <!-- We have two divs in one container/wrapper -->
+
+      <div class="hero" id="Home">
+        <div class="content-container">
+          <div class="text">
+              <h1>Make remote work</h1>
+              <p>Get your team in sync,no matter your location.Streamline processes,create team rituals,and watch productivity soar.</p>
+              <a href="#About" class="text-btn">Learn More</a>
+          </div>
+          <div class="image">
+            <img src="./images/image-hero-desktop.png" alt="">
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ABOUT SECTION -->
+
+    <section class="about" id="About">
+      <h2>ABOUT US</h2>
+      <div class="about-container">
+        <div class="about-box">
+          <img src="./images/about-image.jpg" width="500" alt="">
+        </div>
+        <div class="about-box">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident molestias laborum ad neque, iste tempora, nulla ipsam sunt officia, esse ducimus. Pariatur cupiditate id ipsam sint ex ea incidunt eum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptatibus, fuga culpa facere debitis accusantium ex exercitationem? Officia aliquam, dolore debitis, perspiciatis porro pariatur possimus maxime libero enim totam consequatur.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="products" id="Services">
+      <h2 class="products-heading centered">We Train you with the following qualities</h2>
+      <div class="products-container">
+        <div class="products-box left">
+          <img src="./images/products-image.jpg" alt="">
+          <h2>Efficiency at its peak</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio exercitationem ullam nostrum?</p>
+        </div>
+        <div class="products-box left">
+          <img src="./images/products-image2.jpg" alt="">
+          <h2>Efficiency at its peak</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio exercitationem ullam nostrum?</p>
+        </div>
+        <div class="products-box left">
+          <img src="./images/products-image3.jpg" alt="">
+          <h2>Efficiency at its peak</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio exercitationem ullam nostrum?</p>
+        </div>
+        <div class="products-box right">
+          <img src="./images/products-image5.jpg" alt="">
+          <h2>Efficiency at its peak</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio exercitationem ullam nostrum?</p>
+        </div>
+        <div class="products-box right">
+          <img src="./images/products-image6.jpg" alt="">
+          <h2>Efficiency at its peak</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio exercitationem ullam nostrum?</p>
+        </div>
+        <div class="products-box right">
+          <img src="./images/product-image4.jpg" alt="">
+          <h2>Efficiency at its peak</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio exercitationem ullam nostrum?</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="services" id="Attributes">
+      <h2 class="services-heading">We deliver appropriately with the following qualities</h2>
+      <!-- MAKE A CONTAINER FOR GRID -->
+      <div class="services-container">
+        <div class="services-box">
+          <div class="box-image">
+            <img src="./images/icon-budgeting.svg" width="50" alt="">
+          </div>
+          <div class="box-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda labore ad optio maiores modi nesciunt est accusantium, vero ab ex! Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, assumenda.</p>
+          </div>
+          
+        </div>
+        <div class="services-box">
+          <div class="box-image">
+            <img src="./images/icon-budgeting.svg" width="50" alt="">
+          </div>
+          <div class="box-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda labore ad optio maiores modi nesciunt est accusantium, vero ab ex! Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, assumenda.</p>
+          </div>
+          
+        </div>
+        <div class="services-box">
+          <div class="box-image">
+            <img src="./images/icon-budgeting.svg" width="50" alt="">
+          </div>
+          <div class="box-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda labore ad optio maiores modi nesciunt est accusantium, vero ab ex! Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, assumenda.</p>
+          </div>
+          
+        </div>
+        <div class="services-box">
+          <div class="box-image">
+            <img src="./images/icon-budgeting.svg" width="50" alt="">
+          </div>
+          <div class="box-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda labore ad optio maiores modi nesciunt est accusantium, vero ab ex! Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, assumenda.</p>
+          </div>
+          
+        </div>
+        <div class="services-box">
+          <div class="box-image">
+            <img src="./images/icon-budgeting.svg" width="50" alt="">
+          </div>
+          <div class="box-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda labore ad optio maiores modi nesciunt est accusantium, vero ab ex! Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, assumenda.</p>
+          </div>
+          
+        </div>
+        <div class="services-box">
+          <div class="box-image">
+            <img src="./images/icon-budgeting.svg" width="50" alt="">
+          </div>
+          <div class="box-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda labore ad optio maiores modi nesciunt est accusantium, vero ab ex! Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, assumenda.</p>
+          </div>
+          
+        </div>
+      </div>
+
+      <!-- WHAT OUR TRAINEES SAY ABOUT US -->
+      <div class="review" id="Reviews">
+        <h2 class="review-heading">See what our Trainess think about us!</h2>
+        <div class="review-container">
+          <div class="review-box">
+            <div class="review-img">
+              <img src="./images/pic-1.png" alt="">
+            </div> 
+            <div class="review-text">
+              <h2>Larry Hotuson</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione exercitationem rerum nam reiciendis nesciunt officiis enim ad fugiat. Assumenda, accusamus!</p>
+            </div>           
+          </div>
+
+          <div class="review-box">
+            <div class="review-img">
+              <img src="./images/pic-2.png" alt="">
+            </div> 
+            <div class="review-text">
+              <h2>Larry Hotuson</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione exercitationem rerum nam reiciendis nesciunt officiis enim ad fugiat. Assumenda, accusamus!</p>
+            </div>           
+          </div>
+
+          <div class="review-box">
+            <div class="review-img">
+              <img src="./images/pic-3.png" alt="">
+            </div> 
+            <div class="review-text">
+              <h2>Larry Hotuson</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione exercitationem rerum nam reiciendis nesciunt officiis enim ad fugiat. Assumenda, accusamus!</p>
+            </div>           
+          </div>
+
+          <div class="review-box">
+            <div class="review-img">
+              <img src="./images/pic-2.png" alt="">
+            </div> 
+            <div class="review-text">
+              <h2>Larry Hotuson</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione exercitationem rerum nam reiciendis nesciunt officiis enim ad fugiat. Assumenda, accusamus!</p>
+            </div>           
+          </div>
+
+          <div class="review-box">
+            <div class="review-img">
+              <img src="./images/pic-3.png" alt="">
+            </div> 
+            <div class="review-text">
+              <h2>Larry Hotuson</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione exercitationem rerum nam reiciendis nesciunt officiis enim ad fugiat. Assumenda, accusamus!</p>
+            </div>           
+          </div>
+
+          <div class="review-box">
+            <div class="review-img">
+              <img src="./images/pic-1.png" alt="">
+            </div> 
+            <div class="review-text">
+              <h2>Larry Hotuson</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione exercitationem rerum nam reiciendis nesciunt officiis enim ad fugiat. Assumenda, accusamus!</p>
+            </div>           
+          </div>
+        </div>
+
+        
+      <!-- CONTACT SECTION -->
+
+      <div class="contact">
+        <h2 class="contact-heading">Kindly Reach Out To Us!</h2>
+        <form action="" class="form">
+          <div class="form-input">
+            <label for="name">Fullname:</label>
+          <input type="text" placeholder="Enter Your Name Here" required><br>
+          <label for="number">Number:</label>
+          <input type="number" placeholder="Enter Your Number" required><br>
+          <label for="email">Email:</label>
+          <input type="email" placeholder="Enter Your email address" required>
+          </div>
+         <div class="submit">
+          <button type="submit">Submit</button>
+         </div>
+          <!-- <label for="name">Fullname:</label>
+          <input type="text" placeholder="Enter Your Name Here">
+          <label for="name">Fullname:</label>
+          <input type="text" placeholder="Enter Your Name Here">
+          <label for="name">Fullname:</label>
+          <input type="text" placeholder="Enter Your Name Here">
+          <label for="name">Fullname:</label>
+          <input type="text" placeholder="Enter Your Name Here">
+          <label for="name">Fullname:</label>
+          <input type="text" placeholder="Enter Your Name Here"> -->
+
+        </form>
+      </div>
+
+      <div class="footer">
+        <h2 class="footer-heading">Connect with us on the folowing socials</h2>
+        
+        <div class="footer-container">
+          <div class="logo">
+            <h2>snap</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum omnis optio corporis incidunt labore officia laudantium, ut corrupti pariatur. Ab libero, officia omnis repudiandae magnam nulla blanditiis accusamus nisi laboriosam.</p>
+          </div>
+          <div class="socials">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+          </div>
+        </div>
+           <div class="credit">
+            <h3>All rights reserved, Created by <span>Peter Omoh</span></h3>
+            <h3>&lt;&lt;&lt;&copy;2022&gt;&gt;&gt;</h3>
+           </div>
+      </div>
+      </div>
+
+    </section>
+
+    
+    
+</body>
+</html>

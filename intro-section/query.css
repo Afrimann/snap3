@@ -1,0 +1,142 @@
+@media screen and (max-width:1100px) {
+    .text h1{
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .hero{
+        margin-bottom:20rem;
+    }
+    .navbar .logo{
+        font-size: 20px;
+        font-family: 'Epilogue',sans-serif;
+        margin-left: 35%;
+        }
+ 
+    .close{
+        position: absolute;
+        top: 1.5rem;
+        left: 2rem;
+    }
+    .nav-links,
+    .login-register-right{
+        display: none;
+        }
+
+    .hamburger{
+        display: block;
+    }
+    .content-container{
+        flex-direction: column-reverse;
+        }
+    .text h1{
+        padding-top: 2rem;
+        font-size: 35px;
+        font-family: 'Epilogue',sans-serif;
+        letter-spacing: 1px;
+    }
+    .content-container .image img{
+        width: 100%;
+        position: relative;
+        left: 0rem;
+        top: 1rem;
+    }
+
+    .text{
+        text-align: center;
+    }
+    .text p{
+        padding-top: 1rem;
+    }
+
+    .about{
+        padding-top: 10rem;
+    }
+    
+    .about h2{
+        text-align: center;
+        font-size: 25px;
+    }
+    .about-container{
+        display: block;
+    }
+
+    .about-box p{
+        text-align: center;
+        
+    }
+    .about-box img{
+        width: 100%;
+    }
+
+    .products{
+        padding-top: 15rem;
+    }
+    .services-box{
+        width: 100%;
+    }
+  
+    }
+
+@media screen and (max-width:375px) {
+       
+    
+    .text h1{
+        font-size: 28px;
+    }
+    .hero{
+        margin-bottom: 0;
+    }
+    .about-box p{
+        font-size: 13px;
+    }
+    .products-box img{
+        width: 100%;
+    }
+
+    .services-box{
+       width: 100%;
+        
+}
+.review-img img{
+    border-radius: 30%;
+    height: 10rem;
+    margin-left: 22%;
+}
+.review-text h2{
+    font-size: 20px;
+}
+.review-text p{
+    font-size: 15px;
+}
+
+.footer-container{
+    display: block;
+}
+.logo h2{
+    text-align: center;color: black;
+}
+.logo p{
+    max-width: 100%;
+    font-size: 13px;
+    text-align: center;
+}
+.socials a{
+    text-align: center;
+    color: rgb(3, 3, 87);
+    font-size: 13px;
+}
+/* .socials a:last-child{
+    text-align: center;
+} */
+
+.credit h3{
+    font-size: 12px;
+}
+.credit h3>span{
+    color: #000;
+    font-style: italic;
+}
+}
